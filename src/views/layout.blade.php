@@ -53,7 +53,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ url('/admin/dashboard') }}">SB Admin v2.0</a>
+            <a class="navbar-brand" href="{{ url('/admin/dashboard') }}">ZaLaravel Admin</a>
         </div>
         <!-- /.navbar-header -->
 
@@ -76,10 +76,10 @@
                     </li>
 
                     <li>
-                        <a class="" href="{{ route('admin.dashboard.index') }}"><i
-                                    class="fa fa-dashboard fa-fw"></i> Главная</a>
+                        <a class="" href="{{ url('/admin/dashboard') }}">
+                            <i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
-                   
+
                     @yield('menu')
                 </ul>
             </div>
@@ -92,7 +92,8 @@
         @if (Session::has('message'))
             <br/>
             <div class="alert alert-info alert-dismissible" role="alert">
-                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span
+                            class="sr-only">Close</span></button>
                 {{ Session::get('message') }}
             </div>
         @endif
@@ -136,7 +137,7 @@
         $('.confirm-btn').on('click', function (e) {
             e.preventDefault();
             var currentForm = this;
-            bootbox.confirm("Вы уверены что хотите удалить?", function (result) {
+            bootbox.confirm("Are you sure?", function (result) {
                 if (result) {
                     $(currentForm).parent().submit();
                 }

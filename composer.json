@@ -1,6 +1,7 @@
 {
   "name": "za-laravel/laravel-admin",
   "description": "Base admin package for Laravel 5",
+  "license": "MIT",
   "authors": [
     {
       "name": "Aleksandr Zamiatin",
