@@ -16,7 +16,7 @@
       "src/views"
     ],
     "psr-4": {
-      "ZaWeb\\Core\\": "src/ZaLaravel/LaravelAdmin"
+      "ZaLaravel\\LaravelAdmin\\": "src/ZaLaravel/LaravelAdmin"
     }
   },
   "minimum-stability": "dev"

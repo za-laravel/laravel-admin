@@ -1,4 +1,4 @@
-<?php namespace ZaWeb\Core\Controllers;
+<?php namespace ZaLaravel\LaravelAdmin\Controllers;
 
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;

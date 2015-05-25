@@ -12,29 +12,24 @@
     <title>Admin-@yield('title')</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/pub_admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/admin/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="/pub_admin/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="/admin/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Timeline CSS -->
-    <link href="/pub_admin/css/plugins/timeline.css" rel="stylesheet">
+    <link href="/admin/css/plugins/timeline.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/pub_admin/css/sb-admin-2.css" rel="stylesheet">
+    <link href="/admin/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="/pub_admin/css/plugins/morris.css" rel="stylesheet">
+    <link href="/admin/css/plugins/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/pub_admin/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/admin/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="/pub_admin/css/plugins/bootstrap-tagsinput.css"/>
-
-    <link rel="stylesheet" href="/css/upload.css"/>
-
-    <!-- At very end: redefines vendor styles -->
-    <link rel="stylesheet" href="/pub_admin/css/board.css"/>
+    <link rel="stylesheet" href="/admin/css/plugins/bootstrap-tagsinput.css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +40,7 @@
 
 </head>
 
-<body ng-app="adminApp">
+<body>
 
 <div id="wrapper">
 
@@ -109,24 +104,22 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="/pub_admin/js/jquery.js"></script>
+<script src="/admin/js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="/pub_admin/js/bootstrap.min.js"></script>
+<script src="/admin/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="/pub_admin/js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="/admin/js/plugins/metisMenu/metisMenu.min.js"></script>
 
-<script src="/pub_admin/js/plugins/bootstrap-tagsinput.js"></script>
-<script src="/pub_admin/js/plugins/autogrow.js"></script>
-
-<script src="/pub_admin/js/board.js"></script>
+<script src="/admin/js/plugins/bootstrap-tagsinput.js"></script>
+<script src="/admin/js/plugins/autogrow.js"></script>
 
 @yield('js')
 <!-- Custom Theme JavaScript -->
-<script src="/pub_admin/js/sb-admin-2.js"></script>
+<script src="/admin/js/sb-admin-2.js"></script>
 
-<script src="/js/bootbox.min.js"></script>
+<script src="/admin/js/bootbox.min.js"></script>
 
 
 <script>
