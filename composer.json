@@ -1,0 +1,23 @@
+{
+  "name": "za-laravel/laravel-admin",
+  "description": "Base admin package for Laravel 5",
+  "authors": [
+    {
+      "name": "Aleksandr Zamiatin",
+      "email": "cawa123@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/views"
+    ],
+    "psr-4": {
+      "ZaWeb\\Core\\": "src/ZaLaravel/LaravelAdmin"
+    }
+  },
+  "minimum-stability": "dev"
+}
