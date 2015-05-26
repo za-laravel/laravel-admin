@@ -1,4 +1,8 @@
 # laravel-admin
+
+[![Build Status](https://scrutinizer-ci.com/g/za-laravel/laravel-admin/badges/build.png?b=master)](https://scrutinizer-ci.com/g/za-laravel/laravel-admin/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/za-laravel/laravel-admin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/za-laravel/laravel-admin/?branch=master)
+
 Base admin package for Laravel 5
 
 
