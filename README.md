@@ -2,6 +2,7 @@
 
 [![Build Status](https://scrutinizer-ci.com/g/za-laravel/laravel-admin/badges/build.png?b=master)](https://scrutinizer-ci.com/g/za-laravel/laravel-admin/build-status/master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/za-laravel/laravel-admin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/za-laravel/laravel-admin/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/za-laravel/laravel-admin/v/stable)](https://packagist.org/packages/za-laravel/laravel-admin) [![Total Downloads](https://poser.pugx.org/za-laravel/laravel-admin/downloads)](https://packagist.org/packages/za-laravel/laravel-admin) [![Latest Unstable Version](https://poser.pugx.org/za-laravel/laravel-admin/v/unstable)](https://packagist.org/packages/za-laravel/laravel-admin) [![License](https://poser.pugx.org/za-laravel/laravel-admin/license)](https://packagist.org/packages/za-laravel/laravel-admin)
 
 Base admin package for Laravel 5
 
