@@ -16,9 +16,6 @@ class LaravelAdminServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../../../public' => public_path('admin')
         ], 'public');
-        $this->publishes([
-            __DIR__.'/../../views' => base_path('resources/views/admin'),
-        ]);
     }
     /**
      * Register the service provider.
