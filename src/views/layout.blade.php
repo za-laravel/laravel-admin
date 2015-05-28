@@ -80,7 +80,11 @@
                             <i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
 
-                    @yield('menu')
+                    @foreach($items as $item)
+                        <li><a href="{{ '/admin/'.$item['url']}}">
+                            <i class="fa fa-list fa-fw"></i> {{ $item['title'] }}
+                        </a></li>
+                    @endforeach
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->

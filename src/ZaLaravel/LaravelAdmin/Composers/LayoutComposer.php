@@ -10,7 +10,6 @@ class LayoutComposer
     public function compose(View $view)
     {
         $navItems = Config::get('laravel-admin.nav');
-
         $view->with('items', $navItems);
 
     }

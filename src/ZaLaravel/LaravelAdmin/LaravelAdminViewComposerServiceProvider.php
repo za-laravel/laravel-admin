@@ -19,7 +19,7 @@ class LaravelAdminViewComposerServiceProvider extends ServiceProvider{
      */
     public function boot()
     {
-        View::composer('layout', 'ZaLaravel\LaravelAdmin\Composers\LayoutComposer');
+        View::composer('laravel-admin::layout', 'ZaLaravel\LaravelAdmin\Composers\LayoutComposer');
     }
 
     /**
