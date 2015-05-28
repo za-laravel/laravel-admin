@@ -13,9 +13,14 @@ class LaravelAdminServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViewsFrom(__DIR__ . '/../../views', 'laravel-admin');
+
         $this->publishes([
             __DIR__ . '/../../../public' => public_path('admin')
         ], 'public');
+
+        $this->publishes([
+            __DIR__.'/../../../config/laravel-admin.php' => config_path('laravel-admin.php'),
+        ]);
     }
     /**
      * Register the service provider.
