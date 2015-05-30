@@ -9,7 +9,9 @@ Base admin package for Laravel 5
 
 ## Installation
 
- * install package with ```composer require za-laravel/laravel-admin:"dev-master"``` 
+ * Install package with composer ```composer require za-laravel/laravel-admin:"dev-master"``` 
+ 
+ * If composer can't find package, try to set ```"minimum-stability": "dev"```
   
  * Now append service provider to providers array in config/app.php.
      
@@ -26,8 +28,41 @@ Base admin package for Laravel 5
      ),
      ?>
      ```
- * publish assets ```php artisan vendor:publish --tag=public``` 
+     
+ * Append view composer service provider to app/config.php   
    
+      ```php
+      <?php
+     
+     'providers' => array(
+     
+         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
+         'Illuminate\Auth\AuthServiceProvider',
+         ...
+         'ZaLaravel\LaravelAdmin\LaravelAdminServiceProvider',
+         'ZaLaravel\LaravelAdmin\LaravelAdminViewComposerServiceProvider',
+     ),
+     ?>
+     ```
+     
+ * Publish assets and config file with  ```php artisan vendor:publish``` 
+ 
+ * You will have empty **larave-admin.php** config and you need to sepecifiy nav items there:
+  
+ ```php
+ <?php
+
+return [
+
+    'nav' => [
+        [
+            'title' => 'Users',
+            'url' => 'user' // equals to /admin/user
+        ]
+    ]
+];
+ ```
+ 
   
      
 ## Usage 
