@@ -9,27 +9,27 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin-@yield('title')</title>
+    <title>Admin - @yield('title')</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/admin/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="/admin/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="/css/admin/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Timeline CSS -->
-    <link href="/admin/css/plugins/timeline.css" rel="stylesheet">
+    <link href="/css/admin/plugins/timeline.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/admin/css/sb-admin-2.css" rel="stylesheet">
+    <link href="/css/admin/sb-admin-2.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="/admin/css/plugins/morris.css" rel="stylesheet">
+    <link href="/css/admin/plugins/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/admin/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/admin/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="/admin/css/plugins/bootstrap-tagsinput.css"/>
+    <link rel="stylesheet" href="/css/admin/plugins/bootstrap-tagsinput.css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -109,23 +109,23 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="/admin/js/jquery.js"></script>
+<script src="/js/admin/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="/admin/js/bootstrap.min.js"></script>
+<script src="/js/admin/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="/admin/js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="/js/admin/plugins/metisMenu/metisMenu.min.js"></script>
 
-<script src="/admin/js/plugins/bootstrap-tagsinput.js"></script>
-<script src="/admin/js/plugins/autogrow.js"></script>
+<script src="/js/admin/plugins/bootstrap-tagsinput.js"></script>
+<script src="/js/admin/plugins/autogrow.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/admin/sb-admin-2.js"></script>
+
+<script src="/js/admin/bootbox.min.js"></script>
 
 @yield('js')
-<!-- Custom Theme JavaScript -->
-<script src="/admin/js/sb-admin-2.js"></script>
-
-<script src="/admin/js/bootbox.min.js"></script>
-
 
 <script>
     $(document).ready(function () {
@@ -136,7 +136,6 @@
         bootbox.setDefaults({
             locale: "ru"
         });
-
 
         $('.confirm-btn').on('click', function (e) {
             e.preventDefault();

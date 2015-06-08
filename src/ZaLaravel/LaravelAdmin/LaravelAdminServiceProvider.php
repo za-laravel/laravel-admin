@@ -15,7 +15,11 @@ class LaravelAdminServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../../views', 'laravel-admin');
 
         $this->publishes([
-            __DIR__ . '/../../../public' => public_path('admin')
+            __DIR__ . '/../../../public/css' => public_path('css/admin')
+        ], 'public');
+
+        $this->publishes([
+            __DIR__ . '/../../../public/js' => public_path('js/admin')
         ], 'public');
 
         $this->publishes([
