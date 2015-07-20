@@ -125,7 +125,7 @@
 
 <script src="/js/admin/bootbox.min.js"></script>
 
-@yield('js')
+
 
 <script>
     $(document).ready(function () {
@@ -133,9 +133,9 @@
 
         // $('#dataTables-example').dataTable();
 
-        bootbox.setDefaults({
+       /* bootbox.setDefaults({
             locale: "ru"
-        });
+        });*/
 
         $('.confirm-btn').on('click', function (e) {
             e.preventDefault();
@@ -149,6 +149,9 @@
 
     });
 </script>
+
+@yield('js')
+
 </body>
 
 </html>
